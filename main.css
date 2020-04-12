@@ -6,7 +6,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
   vertical-align: baseline;
   display: block;
-  background-color: lightblue;
+  /* background-image: 'https://cdn.hipwallpaper.com/i/42/76/8R3Q0Z.jpg'; */
   line-height: 1;
 }
 
@@ -112,7 +112,7 @@ a {
   width: 70px;
   margin: 0;
   padding: 0;
-  color: pink;
+  color: lightgrey;
   font-size: 14px;
   text-decoration: none;
   text-align: center;
