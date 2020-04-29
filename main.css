@@ -1,63 +1,24 @@
 body {
-  margin: 8px;
-  padding: auto;
-  border: auto;
   font-size: 100%;
-  font-family: 'Ubuntu', sans-serif;
-  vertical-align: baseline;
-  display: block;
-  /* background-image: 'https://cdn.hipwallpaper.com/i/42/76/8R3Q0Z.jpg'; */
-  line-height: 1;
 }
 
-nav {
-  display: block;
+.lucy {
+    border-radius: 100%;
+  }
+
+.navbar-menu {
+  background-color: black;
 }
 
-ul {
-  display: flex;
-  justify-content: center;
-  height: 60px;
-  padding: 0 20px;
-}
-
-li {
-  padding: 20px 10px;
-  list-style-type: none;
-}
-
-h1 {
-  font-size: 40px;
-  padding: 20px 0;
-  margin: auto;
-}
-
-h2 {
-  font-size: 30px;
-  padding: inherit;
-  text-align: center;
-}
-
-p {
-  display: block;
-  margin-block-start: 1em ;
-  margin-block-end: 1em ;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  
-}
-h3 {
+.row {
   display: flex;
   justify-content: center;
 }
 
-h4 {
-  font-size: 20px;
-}
-
-h5 {
-font-size: 15px;
-padding-bottom: 20px;
+.icon {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 section {
@@ -66,90 +27,56 @@ section {
   
 }
 
-#about {
-  padding: 20px;
-}
-
-a {
-  text-decoration: none;
-}
-
-.column {
-  display: flex;
-  margin: 15px 15px 0;
-  padding: 0;
-  text-align: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.column:last-child {
-  padding-bottom: 60px;
-}
-.column::after {
-  content: '';
-  clear: both;
-  display: block;
-
-.column div {
-  position: relative;
-  float: left;
-  width: 60px;
-  height: 50px;
-  margin: 0 0 0 25px;
-  padding: 0;
-}
-
-.column div:first-child {
-  margin-left: 0;
-}
-.column div span {
-  position: absolute;
-  bottom: -20px;
-  left: 0;
-  z-index: -1;
-  display: block;
-  width: 70px;
-  margin: 0;
-  padding: 0;
-  color: lightgrey;
-  font-size: 14px;
-  text-decoration: none;
-  text-align: center;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-  opacity: 0;
-  font-weight: 1000;
-}
-
-div {
-  display: block;
-}
-
-#experience {
-  padding: 20px;
-}
-
 .skills-icon {
-  font-size: 3em;
+  font-size: 10px;
   color: black;
 }
 
-i {
-  padding: 10px
+.title {
+  color: #000 !important;
+  font-size: 70px !important;
 }
 
-figure {
-  width: 60px;
-  height: 50px;
-  margin: 0;
-  padding: 0;
-  background: #fff;
-  overflow: hidden;
-  display: block;
+.subtitle {
+  color: #000 !important;
+  font-size: 40px !important;
 }
 
-figure:hover+span {
-  bottom: -36px;
-  opacity: 1;
+
+section.hero.is-fullheight.img { 
+  background-image: url('https://c0.wallpaperflare.com/preview/917/750/559/workspace-workplace-tech-computer.jpg');
+  background-size: cover; 
+  background-position: bottom;
+  /* background: url('/Hero6.jpg');  */
 }
+
+.about {
+  background-image: url('https://wallpaperaccess.com/full/742737.jpg');
+  background-size: cover; 
+}
+
+.about2 {
+  background-image: url('https://wallpaperaccess.com/full/742737.jpg');
+  background-size: contain; 
+}
+
+.contact {
+  background-color: black;
+  color: white !important;
+}
+
+/* .navbar {
+  color: white !important;
+  font-size: 20px;
+} */
+
+a.navbar-item {
+  font-size: 25px;
+  color: gainsboro;
+  font-weight: bold;
+}
+
+/* div.container.projects {
+  display: flex;
+  flex-direction: row;
+} */

@@ -8,139 +8,173 @@
   <link rel="stylesheet" href="../../reset">
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.css">
-  <!-- <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#Experience">Experience</a></li>
-      <li><a href="#Projects">Projects</a></li>
-      <li><a href="Contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <section id="hero">
-    <section id="title">
-      <img src="https://scontent-ams4-1.xx.fbcdn.net/v/t1.0-9/69352252_10156430613590318_9148474653390405632_o.jpg?_nc_cat=111&_nc_ohc=4IPaCphwYdYAX8tNaQ3&_nc_ht=scontent-ams4-1.xx&oh=486fe76d0e96b6d0efe9fcf238620e9b&oe=5EC26DB3" alt="Lucy" width="200px" height="200px">
-      <h1>Lucy Maitland</h1>
-      <h2>Software Engineer</h2>
+  <section class="hero is-fullheight img">
+    <div class="hero-head">
+      <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <!-- <div class="navbar-brand"> -->
+          <!-- <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a> -->
+        <!-- </div> -->
+        <div class="navbar-menu">
+          <div class="navbar-end">
+            <a href="#about" class="navbar-item">About</a>
+            <a href="#skills" class="navbar-item">Skills</a>
+            <a href="#Experience" class="navbar-item">Experience</a>
+            <a href="#Projects" class="navbar-item">Projects</a>
+            <a href="#contact" class="navbar-item">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="hero-body">
+      <div class="container has-text-right">
+        <h1 class="title">Lucy Maitland</h1>
+        <h2 class="subtitle">Software Developer</h2>
+        <img src="profile.png" class="has-text-right lucy" alt="Lucy" width="200px" height="200px">
+      </div>
+    </div>
   </section>
-    <section id="contact">
-      <ul>
-        <li><a href="lucy.maitland@hotmail.com""></a></li>
-        <li><a href="lucy.maitland@hotmail.com""></a></li>
-        <li><a href="lucy.maitland@hotmail.com""></a></li>
-        <li><a href="lucy.maitland@hotmail.com""></a></li>
-      </ul>
-    </section>
-  </section>
-
-  <section id="about">
-    <h3>About </h3>
-    <p>Hi! My name is Lucy and I am a Software Engineer based in London seeking new opportunities. Throughout my life, I have been proud of my ability to solve problems creatively. In my previous roles, I was able to optimise processes and create solutions for my company and co-workers. Whilst I was proud of what I achieved, as a digital native I knew there was always a better digital solution, and if the product was not already out there, I wanted to be able to build it.</p>
-    <p>My desire to push solutions to be the best, compelled me to enroll on General Assembly's Software Engineering Immersive so that I could put into practice the skills I sought, and maximise my ability to be a creative problem solver. I would like to take on the challenge of working as a junior developer, doing something I love for a business I am passionate for, with the opportunity to further my skills and work with and learn from leaders in the tech community.</p>
+<section class="section" id="about">
+    <div class="container">
+      <h1 class="title">About</h1>
+      <p>Hi! My name is Lucy and I am a Software Engineer based in London seeking new opportunities.</p> <br>
+      <p>My positive attitude, dedication and time management have enabled me to grow in every aspect of my working life. Previously, I worked for a startup, in a fast-paced environment, which allowed me to adapt quickly under pressure in different situations. The influence of technology on our modern world has always fascinated me and I enjoy solving problems creatively. As a result, I wanted to seek a new challenge and develop new skills. This led me to do an immersive Software Engineering Course at General Assembly, whereby I developed skills in Javascript, React, Express, Node.JS and Python. </p> <br>
+      <p>I am now looking to progress my career in the tech industry, whereby I can further my skills,  challenge myself and thrive as a junior web developer.</p>
+  </div>
   </section>
   
-  <section id="skills"></section>
-    <h3>Skills</h3>
-    <div class="column">
-      <div>
+  <section class="section about" id="skills">
+    <div class="container">
+      <h1 class="title">Skills</h1>
+    <div class="row">
+      <div class="icon">
         <figure><i class="devicon-html5-plain"></i></figure>
         <span>HTML</span>
       </div>
-      <div>
+      <div class="icon">
         <figure><i class="devicon-css3-plain"></i></figure>
         <span>CSS</span>
       </div>
-      <div>
+      <div class="icon">
         <figure><i class="devicon-javascript-plain"></i></figure>
         <span>JavaScript</span>
       </div>
-      <div>
+      <div class="icon">
         <figure><i class="devicon-python-plain"></i></figure>
         <span>Python</span>
       </div>
-      <div>
+      <div class="icon">
         <figure><i class="devicon-bootstrap-plain"></i></figure>
         <span>Bootstrap</span>
       </div>
-      <div>
+      <div class="icon">
         <figure><i class="devicon-react-original"></i></figure>
         <span>React</span>
       </div>
     </div>
     <br>
-   <div class="column">
-      <div>
+   <div class="row">
+      <div class="icon">
         <figure><i class="devicon-express-original"></i></figure>
         <span>Express</span>
       </div>
-      <div>
+      <div class="icon">
         <figure><i class="devicon-nodejs-plain"></i></figure>
         <span>Node.js</span>
       </div>
-      <div>
+      <div class="icon">
         <figure><i class="devicon-sass-original"></i></figure>
         <span>SASS</span>
       </div>
-      <div>
+      <div class="icon">
         <figure><i class="devicon-babel-plain"></i></figure>
         <span>Babel</span>
       </div>
-      <div>
+      <div class="icon">
         <figure><i class="devicon-mongodb-plain"></i></figure>
         <span>MongoDB</span>
       </div>
-      <div>
+      <div class="icon">
         <figure><i class="devicon-git-plain"></i></figure>
         <span>Git</span>
       </div>
     </div>
     <br>
 
-    <div class="column">
-      <div>
+    <div class="row">
+      <div class="icon">
         <figure><i class="devicon-github-plain"></i></figure>
         <span>Github</span>
       </div>
-      <div>
+      <div class="icon">
         <figure><i class="devicon-heroku-original"></i></figure>
         <span>Heroku</span>
       </div>
-      <div>
+      <div class="icon">
         <figure><i class="devicon-mocha-plain"></i></figure>
         <span>Mocha</span>
       </div>
-      <div>
+      <div class="icon">
         <figure><i class="devicon-chrome-plain"></i></figure>
         <span>Chrome</span>
       </div>
-      <div>
+      <div class="icon">
         <figure><i class="devicon-atom-original"></i></figure>
         <span>Atom</span>
       </div>
-      <div>
+      <div class="icon">
         <figure><i class="devicon-trello-plain"></i></figure>
         <span>Trello</span>
       </div>
     </div>
+    </div>
   </section>
 
-  <section id="experience">
-      <h3>Experience</h3>
+  <section class="section" id="Experience">
+    <div class="container">
+      <h1 class="title">Experience</h1>
       <h4>General Assembly London</h4>
-      <h5>Software Engineering Immersive | January 2019 - April 2019</h5>
+      <h5>Software Engineering Immersive | January 2019 - April 2019</h5> <br>
       <p>My time at General Assembly has taught me the key skills needed to be a Junior Developer. Aside from learning popular programming languages (HTML5, CSS, JavaScript, Node.js and Python 3), I was also educated on working collaboratively with others through group labs and projects, using documentation to familiarise myself with new frameworks and libraries, the use of version control with git and GitHub, as well as other industry essentials such as daily standup, best practices in writing code and problem solving.</p>
   </section>
 
-  <section id="projects">
-    <h3>Projects</h3>
-</section>
+  <section class="section about2" id="Projects">
+    <div class="container projects">
+      <h1 class="title">Projects</h1> <br>
+      <h2 id="Project1" class="subtitle">Project 1</h2>
+      <img src="project-1.png" alt="project-1" width="600px" height="600px"><br>
+      <h2 id="Project2" class="subtitle" >Project 2</h2>
+      <img src="project2.png" alt="project-2" width="600px" height="600px"> <br>
+      <h2 id="Project3" class="subtitle">Project 3</h2>
+      <img src="project-3.png" alt="project-3" width="600px" height="600px"> <br>
+      <h2 id="Project4" class="subtitle">Project 4</h2>
+      <img src="" alt="project-4" width="600px" height="600px"> <br>
+      </div>
 
-<section id="contact">
-  <h3>Contact </h3>
+  </section>
+
+<section class="section contact" id="contact">
+    <div class="container">
+      <h1 class="title contact">Contact</h1> <br>
+      <a href="https://www.linkedin.com/in/lucy-maitland-593444109/">
+        LinkedIn
+      </a>
+      <a href="lucy.maitland@hotmail.com">
+        Email
+      </a>
+      <a href="https://github.com/lucymait">
+        GitHub
+      </a>
+      <a href="">
+        Twitter
+      </a>
+  </div>
 </section>
 
 </body>
