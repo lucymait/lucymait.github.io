@@ -5,22 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lucy Maitland</title>
-  <link rel="stylesheet" href="../../reset">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
   <section class="hero is-fullheight img">
     <div class="hero-head">
       <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-        <!-- <div class="navbar-brand"> -->
-          <!-- <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a> -->
-        <!-- </div> -->
         <div class="navbar-menu">
           <div class="navbar-end">
             <a href="#about" class="navbar-item">About</a>
@@ -34,15 +29,15 @@
     </div>
     <div class="hero-body">
       <div class="container has-text-right">
-        <h1 class="title">Lucy Maitland</h1>
-        <h2 class="subtitle">Software Developer</h2>
-        <img src="profile.png" class="has-text-right lucy" alt="Lucy" width="200px" height="200px">
+        <img src="images/Logo.png" alt="logo" height="400px" width="400px">
+        <h2 class="subtitle">SOFTWARE DEVELOPER</h2>
       </div>
     </div>
   </section>
 <section class="section" id="about">
-    <div class="container">
+    <div class="container-about">
       <h1 class="title">About</h1>
+      <img src="profile.png" class="has-text-right lucy" alt="Lucy" width="200px" height="200px">
       <p>Hi! My name is Lucy and I am a Software Engineer based in London seeking new opportunities.</p> <br>
       <p>My positive attitude, dedication and time management have enabled me to grow in every aspect of my working life. Previously, I worked for a startup, in a fast-paced environment, which allowed me to adapt quickly under pressure in different situations. The influence of technology on our modern world has always fascinated me and I enjoy solving problems creatively. As a result, I wanted to seek a new challenge and develop new skills. This led me to do an immersive Software Engineering Course at General Assembly, whereby I developed skills in Javascript, React, Express, Node.JS and Python. </p> <br>
       <p>I am now looking to progress my career in the tech industry, whereby I can further my skills,  challenge myself and thrive as a junior web developer.</p>
@@ -51,7 +46,7 @@
   
   <section class="section about" id="skills">
     <div class="container">
-      <h1 class="title">Skills</h1>
+      <h1 class="title-marble">Skills</h1>
     <div class="row">
       <div class="icon">
         <figure><i class="devicon-html5-plain"></i></figure>
@@ -137,43 +132,99 @@
   </section>
 
   <section class="section" id="Experience">
-    <div class="container">
-      <h1 class="title">Experience</h1>
-      <h4>General Assembly London</h4>
-      <h5>Software Engineering Immersive | January 2019 - April 2019</h5> <br>
-      <p>My time at General Assembly has taught me the key skills needed to be a Junior Developer. Aside from learning popular programming languages (HTML5, CSS, JavaScript, Node.js and Python 3), I was also educated on working collaboratively with others through group labs and projects, using documentation to familiarise myself with new frameworks and libraries, the use of version control with git and GitHub, as well as other industry essentials such as daily standup, best practices in writing code and problem solving.</p>
-  </section>
+        <h1 class="title experience">Experience</h1>
+        <div class="container-experience">
+          <div class="work-experience">
+            <img src="https://adeccodigital.com/wp-content/uploads/2019/09/General-assembly.png" alt="" width="250px"">
+            <h5 class="experience">Software Engineering Immersive | January 2019 - April 2019</h5> <br>
+            <p>My time at General Assembly has taught me the key skills needed to be a Junior Developer. Aside from learning popular programming languages (HTML5, CSS, JavaScript, Node.js and Python 3), I was also educated on working collaboratively with others through group labs and projects, using documentation to familiarise myself with new frameworks and libraries, the use of version control with git and GitHub, as well as other industry essentials such as daily standup, best practices in writing code and problem solving.I couldn’t recommend this bootcamp more and I am now looking to progress my career in the tech industry, whereby I can further my skills, challenge myself and thrive as a junior software developer.</p>
+          </div>
+          <div class="work-experience">
+            <img src="images/Pops.png" alt="" width="200px"">
+            <h5 class="experience">Head of Events | February 2019 - October 2019 <br>
+            Sales & Marketing Manager | February 2017 - February 2019</h5> <br>
+            <p>My role at POPS started off as a Sales & Marketing Manager which evolved after 2
+              years, whereby next I became Head of Events, which was more of a client-facing role.
+              Being in a small team of 4, allowed me to adapt quickly under pressure in different
+              situations. My responsibilities in this role included communicating with current clients,
+              reaching out to new business and ensuring our internal CRM system (Salesforce) and
+              website were managed and updated efficiently. My positive attitude and dedication at
+              POPS provided me with an excellent opportunity to practice my communication,
+              teamwork, organisation and time management skills, all of which I found improved
+              dramatically throughout my time there.</p>
+          </div>
+        </div>
+    </section>
 
-  <section class="section about2" id="Projects">
+  <!-- project section -->
+   <section class="section about2" id="Projects">
     <div class="container projects">
-      <h1 class="title">Projects</h1> <br>
-      <h2 id="Project1" class="subtitle">Project 1</h2>
-      <img src="project-1.png" alt="project-1" width="600px" height="600px"><br>
-      <h2 id="Project2" class="subtitle" >Project 2</h2>
-      <img src="project2.png" alt="project-2" width="600px" height="600px"> <br>
-      <h2 id="Project3" class="subtitle">Project 3</h2>
-      <img src="project-3.png" alt="project-3" width="600px" height="600px"> <br>
-      <h2 id="Project4" class="subtitle">Project 4</h2>
-      <img src="" alt="project-4" width="600px" height="600px"> <br>
-      </div>
+      <h1 class="title-marble">Projects</h1> <br>
+      <div class="project-container">
+            <div class="projects-screen">
+              <div class="flickity-container">
+                </div>
+            </div>
+            <div class="project-block">
+              <h4>Frogger</h4>
+              <h5>HTML | CSS | JavaScript (ES6)</h5>
+              <p>Individual challenge, within 1 week. I created a front-end interactive Frogger style game using HTML, CSS and JavaScript. The game included keyboard movement and a scoring system, stored in local storage.</p>
+              <a href="https://lucymait.github.io/project-1/" target="_blank"><i class="fas fa-link"></i></a>
+              <a href="https://github.com/lucymait/project-1" target="_blank"><i class="fab fa-github-square"></i></a>
+            </div>
+          </div>
+          <div class="project-container">
+            <div class="project-block">
+              <h4>Movify</h4>
+              <h5>HTML | CSS | JavaScript (ES6) | Bulma | React.js| Webpack</h5>
+              <p>Paired project, within 2 days. We created a React Application that consumed a public API, using JavaScript. Our app is a movie database, where the user can search for any movie and any top rated movie (using an external API). The app was styled with CSS.</p>
+              <a href="https://lucymait.github.io/project-2/" target="_blank"><i class="fas fa-link"></i></a>
+              <a href="https://github.com/lucymait/project-2" target="_blank"><i class="fab fa-github-square"></i></a>
+            </div>
+            <div class="projects-screen2">
+              <div class="flickity-container">
+                </div>
+            </div>
+          </div>
+          <div class="project-container">
+            <div class="projects-screen3">
+              <div class="flickity-container">
+                </div>
+            </div>
+            <div class="project-block">
+              <h4>Nutrifix</h4>
+              <h5>JavaScript (ES6) | React.js | Node.js | Express | Mongo and Mongoose | HTML | CSS | Bulma, SCSS | Webpack</h5>
+              <p>Group project, within 10 days. We created a full-stack web app, whereby the user can search for a selection of recipes, add their own recipe and create a shopping list. We also used an external API, FoodDatabase, where the user can search the nutrition for any ingredient. Out app used a RESTful API, MongoDB, Express, Node.js and React. Styled using Bulma and CSS.</p>
+              <a href="https://nutrifixrecipes.herokuapp.com/" target="_blank"><i class="fas fa-link"></i></a>
+              <a href="https://github.com/lucymait/project3" target="_blank"><i class="fab fa-github-square"></i></a>
+            </div>
+          </div>
+          <div class="project-container">
+            <div class="project-block">
+              <h4>Fitbook</h4>
+              <h5>JavaScript (ES6) | React.js | Python | Django | PostgreSQL | HTML | CSS | Bulma | Webpack</h5>
+              <p>Paired project, within 1 week to build a full-stack web app. This is a fully mobile responsive CRUD application which we built using Python and PostgreSQL. Fitbook is a fitness class booking system, whereby the user can search for a fitness class in their area and book within 24 hours. For the frontend we used React and JavaScript, styled using Bulma and CSS.</p>
+              <a href="https://fitbook-fitness.herokuapp.com/#/" target="_blank"><i class="fas fa-link"></i></a>
+              <a href="https://github.com/lucymait/project-4" target="_blank"><i class="fab fa-github-square"></i></a>
+            </div>
+            <div class="projects-screen4">
+              <div class="flickity-container">
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  </section>
-
+      <!-- contact section -->
 <section class="section contact" id="contact">
     <div class="container">
       <h1 class="title contact">Contact</h1> <br>
-      <a href="https://www.linkedin.com/in/lucy-maitland-593444109/">
-        LinkedIn
-      </a>
-      <a href="lucy.maitland@hotmail.com">
-        Email
-      </a>
-      <a href="https://github.com/lucymait">
-        GitHub
-      </a>
-      <a href="">
-        Twitter
-      </a>
+      <div class="contacts-container">
+        <a href="mailto:lucy.maitland@hotmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+        <a href="tel:+4407867956808" target="_blank"><i class="fas fa-mobile-alt"></i></a>
+        <a href="https://github.com/lucymait" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/lucy-maitland/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
   </div>
 </section>
 
