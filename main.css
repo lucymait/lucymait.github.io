@@ -71,8 +71,7 @@ section.hero.is-fullheight.img {
 
 .about {
   background-image: url('https://wallpaperaccess.com/full/742737.jpg');
-  background-size: contain; 
-  padding-bottom: 100px !important;
+  background-size: cover; 
 }
 
 .about2 {
